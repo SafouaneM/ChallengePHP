@@ -1,0 +1,152 @@
+
+
+div.header {
+    margin: auto;
+    background-color:rgb(111,168,220);
+    padding:30px;
+}
+
+div.footer {
+    margin: auto;
+
+    padding:30px;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h3 {
+  margin-left: 130px;
+}
+#sporttekst{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+div.article {
+    padding-left: 60px;
+
+
+}
+.lead  {
+    margin-left:100px;
+}
+
+.headtitle  {
+    margin-left:100px;
+
+}
+
+.column {
+    float: left;
+    width: 23.33%;
+    padding: 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    margin-left: 50px;
+    align-content: center;
+
+}
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.list {
+    margin-left: 30px;
+    list-style-type:circle;
+    color: black;
+
+}
+
+.list2 {
+    list-style-type:circle;
+    color: black;
+}
+.title {
+    text-align: center;
+}
+
+@media all and (min-width: 550px) {
+    nav ul {
+
+        border-top: 1px solid #fff;
+    }
+
+    nav ul li {
+        display: inline-block;
+        border: none;
+    }
+
+    @media all and (min-width: 920px) {
+
+        article {
+            display: inline-block;
+            width: 46%;
+            margin-right: 20px;
+        }
+
+        article:nth-child(even) {
+            margin: 0;
+        }
+    }
+
+    @media all and (min-width: 1200px) {
+        .wrapper {
+            width: 1200px;
+            margin: auto;
+        }
+    }
+}
+
+
+
