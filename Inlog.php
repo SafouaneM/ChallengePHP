@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>JosylvioPlaylist</title>
-    <link rel="stylesheet" href="Style.css">
+    <title> </title>
+    <link rel="stylesheet" href="Login.css">
+
 </head>
 <body>
 <header>
@@ -25,17 +26,32 @@
 <div class="jumbotron">
 
     <h1 class="headtitle">SpotiTube</h1>
-    <p class="lead">This is a YouTube/Spotify knockoff version, but you can still listen to music!</p>
-    <hr class="my-4">
-    <p>Josylvio is opgekomen bij het label van Esko Van Klasse maar nu besluit hij zijn eigen label Hella Cash te beginnen</p>
+    <p class="lead">This is a YouTube/Spotify knockoff version, but you can still listen to music!
+    Log In Here!!!</p>
 
 </div>
-<wrapper>
-    <div class="title">
-<h1>Josylvio - Rich</h1>
-        <iframe width="1000" height="500" src="https://www.youtube.com/embed/DmO6U2d-2Cw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br>
+<div class="login-box">
+    <img src="https://i.boring.host/5Z9O1Df.jpeg" class="avatar">
+    <h1>Login Here</h1>
+    <form action="Index.php" method="post" name="login">
+        <p>Username</p>
+        <input name="username" placeholder="Enter Username" type="text">
+        <p>Password</p>
+        <input name="password" placeholder="Enter Password" type="password">
+        <input name="submit" value="Login" type="submit">
+        <a href="Vergeet.html">Forget Password</a>
+    </form>
+
+
 </div>
-</wrapper>
+
+<script language="JavaScript" type="text/javascript">
+    var frmvalidator  = new Validator("login");
+    frmvalidator.EnableFocusOnError(false);
+    frmvalidator.EnableMsgsTogether();
+</script>
 
 </body>
+
 </html>

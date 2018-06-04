@@ -57,15 +57,17 @@
 
         <ul class="navbar2">
 
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Index.html">Playlists</a></li>
-            <li><a href="Inlog">Aanmelden</a></li>
+            <li><a href="Index.php">Home</a></li>
+            <li><a href="Index.php">Playlists</a></li>
+            <li><a href="Inlog.php">Aanmelden</a></li>
         </ul>
 </header>
 <div class="jumbotron">
 
     <h1 class="headtitle">SpotiTube</h1>
-    <p class="lead">This is a YouTube/Spotify knockoff version, but you can still listen to music!</p>
+    <p class="lead">This is a YouTube/Spotify knockoff version, but you can still listen to music!</p> <?php echo "<br>";
+      loggedin(); ?>
+
     <hr class="my-4">
     <p></p>
 
@@ -106,3 +108,11 @@
 </body>
 
 </html>
+
+<?php
+function loggedin(){
+    echo "Current user: ". $_POST["username"];
+
+}
+?>
+
